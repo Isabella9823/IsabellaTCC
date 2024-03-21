@@ -2,7 +2,7 @@ body
     {
     font-size: 28px;
   }
-  .test {
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -33,4 +33,3 @@ body
   .active {
     background-color: #4CAF50;
   }
-}
