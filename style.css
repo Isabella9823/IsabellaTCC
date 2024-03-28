@@ -5,8 +5,8 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 20; /**/
-  padding: 20;
+  margin: 0; /**/
+  padding: 0;
   overflow: hidden;
   background-color: #9f6dee;
   position: -webkit-sticky; 
