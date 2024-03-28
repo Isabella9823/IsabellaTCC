@@ -35,5 +35,10 @@ li a:hover {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.cabecalho {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  
 /*teste pesquisa*/
 
