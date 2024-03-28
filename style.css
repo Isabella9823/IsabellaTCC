@@ -1,6 +1,6 @@
 
 body {
-  font-family: Arial;
+  font-size: 28px;
 }
 
 ul {
@@ -9,6 +9,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #9f6dee;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
 }
 
 li {
@@ -19,13 +22,17 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  font-size: 25px;
-  padding: 30px 26px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #5a3288; /*#653c94*/
+  background-color: #111;
+}
+
+.active {
+  background-color: #5a3288;
+
 }
 
 /*teste pesquisa*/
