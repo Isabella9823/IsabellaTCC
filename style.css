@@ -23,9 +23,9 @@ li a {
   padding: 30px 26px;
   text-decoration: none;
 }
-#653c94
+
 li a:hover {
-  background-color: #5a3288;
+  background-color: #5a3288; /*#653c94*/
 }
 
 /*teste pesquisa*/
