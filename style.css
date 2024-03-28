@@ -7,10 +7,12 @@ body {
   background-color: #b489f8;
   padding: 20px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   color: white;
 }
 
+/*barra*/
 ul {
   list-style-type: none;
   margin: 0; 
@@ -22,10 +24,12 @@ ul {
   top: 0;
 }
 
+/*lado da barra*/
 li {
   float: left;
 }
 
+/*letra da barra*/
 li a {
   display: block;
   color: white;
@@ -44,11 +48,6 @@ li a:hover {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.cabecalho {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
 /*teste pesquisa*/
 
 
