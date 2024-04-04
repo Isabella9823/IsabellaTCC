@@ -1,6 +1,7 @@
 
 body {
-  font-size: 28px;
+  margin: 0;
+
 }
 
 .cabecalho {
@@ -17,7 +18,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0; 
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
   background-color: #9f6dee; /*#9f6dee*/
   position: -webkit-sticky; 
@@ -37,6 +38,7 @@ li a {
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 /*cor da barrinha quando passa o mouse*/
