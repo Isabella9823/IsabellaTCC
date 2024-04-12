@@ -70,7 +70,13 @@ li a:hover {
     justify-content: right;
     display: flex;
     align-items: center;
+    flex-direction: column; 
+    position: relative;
+    top: 10px;
+    left: 500px; 
+
     }
+ 
  
 
 
