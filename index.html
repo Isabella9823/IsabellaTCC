@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,53 +9,38 @@
     <title>Document</title>
 </head>
     <body>
+        <nav class="nav">
 
-            <div class="cabecalho">
-                <p>Cabelos</p>
-            </div>
-        
-         <ul>
-                <div class="barra">
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Curvatura">Curvaturas</a></li>
-                <li><a href="#Finalização">Finalização</a></li>
-                <li><a href="#Penteados">Penteados</a></li>
-                <li><a href="#Transição">Transição</a></li>
-                </div>
-         </ul>
+            <div class="logo">Studio Ghibli</div>
 
-         <!--JAVA-->
+            <ul class="nav-links">
+                <!--Caixa Hack-->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
-         <script>
-            let count = 0;
-    
-            function incrementCount() {
-            count++;
-            document.getElementById("count-display").textContent = count;
-            }
-    
-        </script>
-             <div class="botao">
-             <h1>Manipulação do DOM</h1>
-            <button onclick="incrementCount()">Clique Aqui</button>
-            <p>Total de Cliques: <span id="count-display">0</span></p>
-        </div>
-    
+                <!--Navegacao do Menu-->
+                <div class="menu">
+                    <li><a href="/">Inicio</a></li>
 
+                    <!--Menu Suspenso-->
+                    <li class="services">
+                        <a href="/">Studio Ghibli</a>
 
-            <!--teste-->
-   
-            <div class="imagem">
-                <div class="imag"> 
-                <div class="frase"><h1>Tipos de Cabelos</h1></div>
-                        <img src="https://www.loreal-paris.com.br/-/media/project/loreal/brand-sites/oap/americas/br/artigos/cabelo/artigos-planilha-nova-1_1/keila/conheca-os-tipos-de-cabelo-e-saiba-como-identificar-o-seu/tipos-de-cabelos.jpg" alt="cabelos" width="900" height="500">
+                        <!--Menu Suspenso-->
+                        <ul class="dropdown">
+                            <li><a href="/">Filmes</a></li>
+                            <li><a href="/">Séries</a></li>
+                            <li><a href="/">Jogos</a></li>
+                            <li><a href="/">Curtas-Metragens</a></li>
+                            <li><a href="/">Pré-Ghibli</a></li>
+                            <li><a href="/">Documentários</a></li>  
+                        </ul>    
+                    </li>
+                            <li><a href="/">História</a></li>
+                            <li><a href="/">Produtos</a></li>    
+                </div>     
+            </ul>
+        </nav>    
+    </body>    
+</html>    
             
-                         <!--width="700" height="400"-->
-                </div>
-            </div>
-
-
-
-            
-    </body>
-</html>
