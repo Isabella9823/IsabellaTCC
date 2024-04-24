@@ -25,7 +25,6 @@
 
  /*Botao DOM*/
  .botao {
-  justify-content: right;
   align-items: center;
   flex-direction: column; 
   position: relative;
