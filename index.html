@@ -41,6 +41,22 @@
                 </div>     
             </ul>
         </nav>    
+        <script>
+            let count = 0;
+    
+            function incrementCount() {
+            count++;
+            document.getElementById("count-display").textContent = count;
+            }
+    
+        </script>
+
+             <div class="botao">
+                <h1>Manipulação do DOM</h1>
+                <button onclick="incrementCount()">Clique Aqui</button>
+                <p>Total de Cliques: <span id="count-display">0</span></p>
+             </div>
+
     </body>    
 </html>    
 
