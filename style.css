@@ -80,6 +80,7 @@
   display: none;
   border-radius: 8px;
   top: 35px;
+  color:#fff
   }
 
   .dropdown li + li {
