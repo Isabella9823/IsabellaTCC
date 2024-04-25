@@ -7,7 +7,9 @@
 
 
   body {
-  font-family: Condensed;
+    font-family: cursive;
+    font-size: 25px;
+  	margin: 0;
   }
 
   a {
@@ -23,12 +25,13 @@
    
  }
 
- /*Botao DOM*/
+ /*BOTÃO DOM
  .botao {
   align-items: center;
   flex-direction: column; 
-  position: relative;
+  
  }
+ */
  
   /* BARRA DE NAV */
   .navbarra {
@@ -36,8 +39,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: teal;
-  color: #fff;
+  background-color: #008080;
   position: sticky;
   top: 0;
   }
@@ -151,6 +153,7 @@
   }
 }
 
+/* TABELA
 table, td, th {
   border: 1px solid;
 }
@@ -164,4 +167,4 @@ th, td {
   padding: 15px;
   text-align: left;
 }
-
+*/
