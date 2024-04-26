@@ -178,7 +178,7 @@ th, td {
   margin-left: 80px;
   display: grid;  
   grid-gap: 140px;  
-  grid-template-columns: repeat(auto-fit, 100px);
-  grid-template-rows: repeat(100, 200px); 
+  grid-template-columns: repeat(auto-fit, 120px);
+  grid-template-rows: repeat(100, 240px); 
   
 }
