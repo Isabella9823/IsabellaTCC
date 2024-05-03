@@ -178,8 +178,8 @@ th, td {
   margin-left: 50px;
   display: grid;
   grid-gap: 20px; /* Espaço das imagens */
-  grid-template-columns: repeat(4, 250px); /* 4 colunas */
-  grid-template-rows: repeat(6, 450px); /* 6 linhas*/
+  grid-template-columns: repeat(6, 250px); /* 4 colunas */
+  grid-template-rows: repeat(4, 450px); /* 6 linhas*/
   justify-content: center;
 }
 
