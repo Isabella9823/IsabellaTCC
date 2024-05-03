@@ -191,7 +191,7 @@ th, td {
   margin-left: 50px;
   display: grid;
   grid-gap: 20px; /* Espaço das imagens */
-  grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+  grid-template-columns: repeat(4, 250px); /* 4 colunas */
   grid-template-rows: repeat(6, 1fr); /* 6 linhas*/
   justify-content: center;
 }
