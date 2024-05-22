@@ -439,4 +439,21 @@ th, td {
   }
 }
 
+/*.ima{
+  float: left;
+  width: 16.66%;
+  padding: 5px;
+}
 
+.imgfilmes::after {
+  content: "";
+  clear: both;
+  display: table; 
+}
+
+@media screen and (max-width: 780px) {
+  .ima {
+    width: 33.33%;
+    
+  }
+}*/
