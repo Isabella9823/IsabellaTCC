@@ -456,4 +456,49 @@ th, td {
     width: 33.33%;
     
   }
-}*/
+}
+
+.ima{
+  float: left;
+  width: 15%;
+  padding: 5px;
+  
+}
+
+.ima img{
+  width:100%;
+  padding:5px:
+}
+.imgfilmes{  
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 7%;
+}
+
+
+
+.imgfilmes::after {
+  content: "";
+  clear: both;
+  display: table; 
+  
+}
+
+@media screen and (max-width: 780px) {
+  .ima {
+    width: 25%;
+    
+  }
+  
+  .imgfilmes{
+    margin-top: px;
+    margin-bottom: px;
+    margin-right: -7px;
+    margin-left: 50px;
+   
+    
+  }
+  
+}
+*/
