@@ -4,7 +4,9 @@
   box-sizing: border-box;
   
   }
-
+  a {
+    color:#388a8a;
+  }
 
   body {
     font-family: cursive;
@@ -360,7 +362,7 @@ th, td {
   }
 
   .dropdown li:hover {
-  background-color: #4c9e9e;
+  background-color: #388a8a;
   }
 }
 
