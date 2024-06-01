@@ -12,7 +12,7 @@
   }
 
   body {
-    font-family: cursive;
+    font-family: "Rokkitt", serifa;
     font-size: 25px;
   	margin: 0;
   }
@@ -185,13 +185,13 @@
   text-align:center;
   font-size: 15px;
   margin-top: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
  
 }
 
 .ima img{
   width:100%;
- 
+  padding: 2px;
 }
 
 .imgfilmes{  
@@ -203,8 +203,6 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
-
 
 .imgfilmes::after {
   content: "";
@@ -222,6 +220,7 @@
   
   .ima {
     width: 30%; 
-    margin: 0px;
+    margin: 0px; 
   }
+  
 }
