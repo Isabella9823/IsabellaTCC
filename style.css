@@ -221,7 +221,7 @@
   }
   
   .ima {
-    width: 30%; /* Ajuste a largura conforme necessário */
-    margin: 0px; /* Adicione margens entre as imagens */
+    width: 30%; 
+    margin: 0px;
   }
 }
