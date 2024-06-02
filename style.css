@@ -2,19 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+ 
   }
   a {
     color:#388a8a;
   }
+
   .texto{
     text-align: center;
   }
 
   body {
-    font-family: "Rokkitt", serifa;
+    font-family: "Kalam", cardo;
     font-size: 25px;
   	margin: 0;
+    background-color:#f0f0f0;
   }
 
   a {
@@ -27,7 +29,7 @@
  
  .logo{
    font-size: 35px;
-   color:#fff
+   color:#f0f0f0;
    
  }
 
@@ -46,7 +48,7 @@
 
 
   .nav-links a {
-  color: #fff;
+  color: #f0f0f0;
   }
   
   /* MENU DA BARRA */
