@@ -176,7 +176,14 @@
 .ab{
   color:#3c3c3c;
   text-decoration-line: underline;
+  
 }
+
+a:hover {
+  color: #38778a;
+}
+
+
 
 
 /*imagens*/
