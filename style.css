@@ -186,7 +186,7 @@ a:hover {
 
 
 
-/*imagens*/
+/*imagens SG*/
 
 .sg{
   margin-left: 7.49%;
@@ -242,6 +242,97 @@ a:hover {
   }
   
   .ima {
+    width: 30%; 
+    margin: 0px; 
+  }
+  
+}
+
+/*Imagens CM*/
+
+.imaCM{
+  float: left;
+  width: 17.90%;
+  padding: 5px;
+  
+}
+
+.imaCM img{
+  width:100%;
+  padding: 2px;
+}
+
+.sobrando{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.sobrando::after {
+  content: "";
+  clear: both;
+  display: table; 
+  
+}
+
+@media screen and (max-width: 780px) {
+  .sobrando {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:10px;
+  }
+  
+  .imaCM {
+    width: 30%; 
+    margin: 0px; 
+  }
+  
+}
+
+/*Imagem S*/
+
+.imaS{
+  float: left;
+  width: 16.65%;
+  padding: 5px;
+  
+}
+
+.imaS img{
+  width:100%;
+  padding: 2px;
+}
+
+.unico{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 7%;
+  margin-left: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.unico::after {
+  content: "";
+  clear: both;
+  display: table; 
+  
+}
+
+@media screen and (max-width: 780px) {
+  .unico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:10px;
+  }
+  
+  .imaS {
     width: 30%; 
     margin: 0px; 
   }
