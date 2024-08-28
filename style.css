@@ -1,189 +1,71 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
- 
-  }
-  a {
-    color:#215555;
-  }
-
-  .texto{
-    text-align: center;
-  }
-
-  body {
-    font-family: "Kalam", cardo;
-    font-size: 25px;
-  	margin: 0;
-    background-color:#f0f0f0;
-  }
-
-  a {
-  text-decoration: none;
-  }
-
-  li {
-  list-style: none;
-  }
- 
- .logo{
-   font-size: 45px;
-   color:#f0f0f0;
-   
- }
-
- 
- 
-  /* BARRA DE NAV */
-  .navbarra {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #008080;
-  position: sticky;
-  top: 0;
-  }
-
-
-  .nav-links a {
-  color: #f0f0f0;
-  }
+*{
+  font-family: "Cardo", serif; /*font-family: "Kalam", cardo;*/
   
-  /* MENU DA BARRA */
-  .menu {
-  display: flex;
-  gap: 1em;
-  font-size: 22px;
+}
+
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  background-color:#f0f0f0;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('https://wallpapercave.com/wp/UAtM37k.jpg');
+  min-height: 100%;
+}
+
+/* Cor dos itens da barra de navegação quando a barra está no topo */
+.w3-bar .w3-bar-item {
+  color: white; /* Cor dos itens no topo */ /*#f0f0f0*/
+  
+}
+
+/* Alterar a cor dos itens da barra de navegação quando rola a página */
+.w3-bar.w3-card.w3-animate-top .w3-bar-item {
+  color: black; /* Cor dos itens quando rola */
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
   }
+}
 
-
-  .menu li:hover {
-  background-color: #4c9e9e;
-  border-radius: 5px;
-  transition: 0.3s ease;
-  }
-
-  .menu li {
-  padding: 5px 14px;
-  }
-
-  /* MENU ESCONDIDO */
-  .services {
-  position: relative;
-  }
-
-  .dropdown {
-  background-color: rgb(1, 139, 139);
-  padding: 1em 0;
-  position: absolute; 
-  display: none;
-  border-radius: 8px;
-  top: 35px;
-  color:#fff
-  }
-
-  .dropdown li + li {
-  margin-top: 10px;
-  }
-
-  .dropdown li {
-  padding: 0.5em 1em;
-  width: 8em;
+/* Container */
+.texto {
   text-align: center;
-  }
-
-  .dropdown li:hover {
-  background-color: #4c9e9e;
-  }
-
-  .services:hover .dropdown {
-  display: block;
-  }
- 
-  /*MENU RESPONSIVO*/
-  /* CAIXA */
-  input[type=checkbox]{
-  display: none;
-  }
-
-  /*HAMBURGER MENU*/
-  .hamburger {
-  display: none;
-  font-size: 24px;
-  user-select: none;
-  }
-
-  /*PARA CELULAR */
-  @media (max-width: 768px) {
-  .menu {
-  display:none;
-  position: absolute;
-  background-color:teal;
-  right: 0;
-  left: 0;
-  text-align: center;
-  padding: 16px 0;
-  }
-
-  .menu li:hover {
-  display: inline-block;
-  background-color:#4c9e9e;
-  transition: 0.3s ease;
-  }
-
-  .menu li + li {
-  margin-top: 12px;
-  }
-
-  input[type=checkbox]:checked ~ .menu{
-  display: block;
-  }
-
-  .hamburger {
-  display: block;
-  color:#fff;
-  }
-
-  .dropdown {
-  left: 50%;
-  top: 30px;
-  transform: translateX(35%);
-  }
-
-  .dropdown li:hover {
-  background-color: #4c9e9e;
-  }
 }
 
-
-.ima:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/*para telas menores*/
-@media screen and (max-width: 500px) {
-  .imgfilmes {
-     display: block;
-     text-align: center;
-      
-  }
-}
-
-.ab{
-  color:#42a2a5;
+.ab {
+  color: #42a2a5;
   text-decoration-line: underline;
-  
+  font-size: 20px;
+  font-family: "Cardo", serif; /* Change font for links */
 }
 
 a:hover {
-  color:black;
+  color: black;
 }
-
-
 
 
 /*imagens SG*/

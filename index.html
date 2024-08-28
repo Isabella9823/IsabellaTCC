@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src ="script.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="totoro.ico">
-    <title>Isabella TCC</title>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Cardo:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
 
-
-
-    <nav class="navbarra">
-
-         <div class="logo">Studio Ghibli</div>
-
-        <ul class="nav-links">
-                <!--Caixa Hack-->
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
-                <!--Navegacao do Menu-->
-                <div class="menu">
-                      <li><a href="#StudioGhibli">Studio Ghibli</a></li>
-                      <li><a href="#História">História</a></li>
-                      <li><a href="#Produtos">Produtos</a></li>
-                </div>     
-        </ul>
-    </nav>    
-        
-
-
-<!--Links-->
-  <br>
-  <div class="texto">
-  <p>
-  <a class="ab" href="https://isabella9823.github.io/LayoutResponsivo/">Layout Responsivo</a> &nbsp;
-  <a class="ab" href="https://isabella9823.github.io/IntroducaoAoHTML/">Introdução ao HTML</a> &nbsp;  
-  <a class="ab" href="https://isabella9823.github.io/AtividadesExtrasDoSite/">Tabela</a> &nbsp; 
-  <a class="ab" href="https://isabella9823.github.io/ListadeTarefas/">Lista de Tarefas</a> &nbsp;
-  <a class="ab" href="https://isabella9823.github.io/Formulario/">Formulário</a>  
-  </p>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#história" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-feather-alt"></i> HISTÓRIA</a>
+    <a href="#produtos" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-shopping-bag"></i> PRODUTOS</a>
+    <a href="#parque temático" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-map-marker-alt"></i> PARQUE TEMÁTICO</a>
   </div>
-  <br>
- 
- <p class="sg">Studio Ghibli</p>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#história" class="w3-bar-item w3-button" onclick="toggleFunction()">HISTÓRIA</a>
+    <a href="#produtos" class="w3-bar-item w3-button" onclick="toggleFunction()">PRODUTOS</a>
+    <a href="#parque temático" class="w3-bar-item w3-button" onclick="toggleFunction()">PARQUE TEMÁTICO</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">STUDIO GHIBLI</span>
+  </div>
+</div>
+
+<br>
+<div class="texto">
+  <p>
+    <a class="ab" href="https://isabella9823.github.io/LayoutResponsivo/">Layout Responsivo</a> &nbsp;
+    <a class="ab" href="https://isabella9823.github.io/IntroducaoAoHTML/">Introdução ao HTML</a> &nbsp;  
+    <a class="ab" href="https://isabella9823.github.io/AtividadesExtrasDoSite/">Tabela</a> &nbsp; 
+    <a class="ab" href="https://isabella9823.github.io/ListadeTarefas/">Lista de Tarefas</a> &nbsp;
+    <a class="ab" href="https://isabella9823.github.io/Formulario/">Formulário</a>  
+  </p>
+</div>
+<br>
+  
+  <p class="sg">Studio Ghibli</p>
   
   <div class="imgfilmes">
     <div class="ima"> 
@@ -169,7 +173,7 @@
       
   </div> 
   
-  <!--CM-->  
+   <!--CM-->  
     
 <p class="sg">Curtas-metragens</p>  
     
@@ -278,12 +282,11 @@
          <img src="https://i.postimg.cc/6q14wSCJ/Design-sem-nome-2.png" alt="On Your Mark" style="width:100%">
          <a href="Outros/curta4.html"><p class="titulo">On Your Mark (1999)</p></a>
     </div>
+   
    </div>
   </div>
   
-  
-  
- <p class="sg">Série</p>
+  <p class="sg">Série</p>
   
    <div class="unico">
    <div class="imaS"> 
@@ -292,7 +295,7 @@
   
   </div>
   </div> 
-    
+  
   <p class="sg">Comerciais de TV</p>  
     
     <div class="imgfilmes">
@@ -403,7 +406,7 @@
    </div>
   </div>
   
-   <p class="sg">Co-pruduções</p>
+  <p class="sg">Co-pruduções</p>
   
    <div class="unico">
    <div class="imaS"> 
@@ -479,8 +482,8 @@
       
    </div>
    </div>   
-  
-  <p class="sg">Jogos</p>  
+
+<p class="sg">Jogos</p>  
     
     <div class="unico">
     <div class="imaS"> 
@@ -506,11 +509,7 @@
       </div>
       </div>
 
-      <hr size =20>
-      <br/> <br/>
-<!--formulário-->
-
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <script src ="script.js" defer></script>
@@ -538,7 +537,12 @@
         </form>
     </div>
   
-</body>    
-</html>    
+<br><br>  
 
-        
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+</body>
+</html>
