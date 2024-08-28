@@ -1,8 +1,6 @@
 *{
   font-family: "Cardo", serif; /*font-family: "Kalam", cardo;*/
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
 }
 
 body, html {
@@ -50,6 +48,9 @@ body, html {
   .bgimg-1 {
     background-attachment: scroll;
     min-height: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
 
