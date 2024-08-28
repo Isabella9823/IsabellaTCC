@@ -1,4 +1,4 @@
-// Modal Image Gallery
+// Galeria de imagens modais
 function onClick(element) {
     document.getElementById("img01").src = element.src;
     document.getElementById("modal01").style.display = "block";
@@ -6,7 +6,7 @@ function onClick(element) {
     captionText.innerHTML = element.alt;
   }
   
-  // Change style of navbar on scroll
+  // Alterar o estilo da barra de navegação na rolagem
   window.onscroll = function() {myFunction()};
   function myFunction() {
       var navbar = document.getElementById("myNavbar");
@@ -17,7 +17,7 @@ function onClick(element) {
       }
   }
   
-  // Used to toggle the menu on small screens when clicking on the menu button
+  // Usado para alternar o menu em telas pequenas ao clicar no botão de menu
   function toggleFunction() {
       var x = document.getElementById("navDemo");
       if (x.className.indexOf("w3-show") == -1) {

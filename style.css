@@ -10,7 +10,7 @@ body, html {
   background-color:#f0f0f0;
 }
 
-/* Create a Parallax Effect */
+/* Criar um efeito de paralaxe */
 .bgimg-1 {
   background-attachment: fixed;
   background-position: center;
@@ -18,7 +18,7 @@ body, html {
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* imagem) */
 .bgimg-1 {
   background-image: url('https://wallpapercave.com/wp/UAtM37k.jpg');
   min-height: 100%;
@@ -43,9 +43,9 @@ body, html {
   cursor: pointer;
 }
 
-/* Turn off parallax scrolling for tablets and phones */
+/* Desativar a rolagem de paralaxe para tablets e telefones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1 {
     background-attachment: scroll;
     min-height: 400px;
   }
