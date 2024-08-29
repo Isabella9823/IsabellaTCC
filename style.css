@@ -1,6 +1,5 @@
 *{
-  font-family: "Cardo", serif; /*font-family: "Kalam", cardo;*/
-
+  font-family:"DM Serif Text", serif; /*font-family: "Kalam", cardo;*/
 }
 
 body, html {
@@ -22,7 +21,19 @@ body, html {
 .bgimg-1 {
   background-image: url('https://wallpapercave.com/wp/UAtM37k.jpg');
   min-height: 100%;
+  color:white; 
 }
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
 
 /* Cor dos itens da barra de navegação quando a barra está no topo */
 .w3-bar .w3-bar-item {
