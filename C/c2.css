@@ -11,7 +11,7 @@ body, html {
 
 /* Adicionar uma altura mínima e garantir que a imagem cubra a área visível */
 .image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://th.bing.com/th/id/R.3778feae04ca235025951729153624d6?rik=xr34JQ9O%2feFVLw&pid=ImgRaw&r=0");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/163574.jpg");
   min-height: 100vh; /* Ajusta a altura para cobrir pelo menos 50% da altura da tela */
   background-position: center;
   background-repeat: no-repeat;
@@ -32,8 +32,8 @@ body, html {
 .column-container {
   margin-top: 30px;
   margin-bottom: 10px;
-  margin-right: 7%;
-  margin-left: 7%;
+  margin-right: 9%;
+  margin-left: 9%;
 }
 
 /* Create two columns that float next to each other */
@@ -41,6 +41,7 @@ body, html {
   float: left;
   width: 48%; /* Slightly less than 50% to account for gap and padding */
   padding: 10px;
+  
 }
 
 /* Clear floats after the columns */
@@ -57,8 +58,13 @@ body, html {
   }
 }
 
-.margin {
-  margin-right: 8%;
-  margin-left: 8%;
+.margintexto {
+  margin-right: 10%;
+  margin-left: 10%;
   margin-bottom: 10px;
+  font-size:20px;
+}
+
+.letra{
+  font-size:20px
 }
