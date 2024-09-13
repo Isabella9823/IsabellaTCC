@@ -100,7 +100,7 @@ th, td {
 .video-container iframe {
   position: absolute;
   top: 0;
-  left: 3px;
+  left: 5px;
   width: 100%;
   height: 100%;
 }
@@ -139,11 +139,15 @@ footer {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   border-radius: 4px;
 }
 
 .corb:hover{
   background-color: #e6e4e4;
+}
+
+ .corb i {
+   margin-left: 8px;
 }
