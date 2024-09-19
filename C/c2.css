@@ -67,7 +67,7 @@ body, html {
 }
 
 /* Layout responsivo - faz com que as colunas se empilhem umas sobre as outras em vez de próximas umas das outras */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .column {
     width: 100%;
   }
@@ -88,13 +88,16 @@ body, html {
 
 table {
   border-collapse: collapse;
-
 }
 
 th, td {
   border: none; 
-  padding: 8px; 
+  padding-top: 8px;
+  padding-right: 6px;
+  padding-bottom: 8px;
+  padding-left: 0px;
   text-align: left;
+  white-space: nowrap;
 }
 
 
@@ -128,7 +131,7 @@ th, td {
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .trilha {
     width: 100%;
     left: 15px;
