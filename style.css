@@ -38,8 +38,6 @@ body, html {
   color: white;
 }
 
-
-
 /* Cor dos itens da barra de navegação quando a barra está no topo */
 .w3-bar .w3-bar-item {
   color: white; /* Cor dos itens no topo */ /*#f0f0f0*/
@@ -50,6 +48,18 @@ body, html {
 .w3-bar.w3-card.w3-animate-top .w3-bar-item {
   color: black; /* Cor dos itens quando rola */
 }
+
+/* Cor da barra de navegação ao rolar a página */
+.w3-bar.w3-card.w3-animate-top {
+  background-color: #F0F0F0 !important; /* cinza claro */
+}
+
+/* Cor das caixas do menu hamburger */
+.w3-bar-block .w3-bar-item {
+  background-color: #f0f0f0; /* cinza claro */
+}
+
+
 
 .w3-wide {
   letter-spacing: 10px;
@@ -261,3 +271,4 @@ a:hover {
     color: red;
     font-size: 0.875em;
 }
+
