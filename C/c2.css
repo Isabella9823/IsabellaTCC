@@ -96,21 +96,26 @@ table {
 }
 
 
+    .tab {
+        max-width: 100%; /* Garante que o contêiner não exceda a largura da tela */
+        overflow: hidden; /* Remove a barra de rolagem */
+    }
     table {
-        width: 100%; /* Faz a tabela ocupar 100% do container */
+        width: 100%; /* Faz a tabela ocupar 100% do contêiner */
+        max-width: 600px; /* Define uma largura máxima para a tabela */
         border-collapse: collapse; /* Remove espaços entre células */
+        margin: auto; /* Centraliza a tabela */
     }
     td {
         padding: 8px; /* Adiciona espaçamento interno */
         border: 1px solid #ddd; /* Adiciona borda às células */
-        white-space: nowrap; /* Impede quebra de linha por padrão */
+        white-space: normal; /* Permite quebra de linha dentro das células */
     }
-    @media (max-width: 800px) {
+    @media (max-width: 600px) {
         td {
-            font-size: 15px; /* Ajusta o tamanho da fonte em telas menores */
+            font-size: 14px; /* Ajusta o tamanho da fonte em telas menores */
         }
     }
-
 
 .video-wrapper {
   display: flex;
