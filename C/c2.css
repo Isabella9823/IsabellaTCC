@@ -107,13 +107,13 @@ table {
         margin: auto; /* Centraliza a tabela */
     }
     td {
-        padding: 8px; /* Adiciona espaçamento interno */
+        padding: 18px; /* Adiciona espaçamento interno */
         border: 1px solid #ddd; /* Adiciona borda às células */
         white-space: normal; /* Permite quebra de linha dentro das células */
     }
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         td {
-            font-size: 14px; /* Ajusta o tamanho da fonte em telas menores */
+            font-size: 16px; /* Ajusta o tamanho da fonte em telas menores */
         }
     }
 
