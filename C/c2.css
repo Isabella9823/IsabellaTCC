@@ -107,7 +107,7 @@ table {
         margin: auto; /* Centraliza a tabela */
     }
     td {
-        padding: 18px; /* Adiciona espaçamento interno */
+        padding: 16px; /* Adiciona espaçamento interno */
         border: 1px solid #ddd; /* Adiciona borda às células */
         white-space: normal; /* Permite quebra de linha dentro das células */
     }
