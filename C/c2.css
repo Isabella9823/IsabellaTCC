@@ -86,19 +86,30 @@ body, html {
   color: Grey; 
 }
 
+.letratab{
+  font-size:18px;
+  color: Grey; 
+}
+
 table {
   border-collapse: collapse;
 }
 
-th, td {
-  border: none; 
-  padding-top: 8px;
-  padding-right: 6px;
-  padding-bottom: 8px;
-  padding-left: 0px;
-  text-align: left;
-  white-space: nowrap;
-}
+
+    table {
+        width: 100%; /* Faz a tabela ocupar 100% do container */
+        border-collapse: collapse; /* Remove espaços entre células */
+    }
+    td {
+        padding: 8px; /* Adiciona espaçamento interno */
+        border: 1px solid #ddd; /* Adiciona borda às células */
+        white-space: nowrap; /* Impede quebra de linha por padrão */
+    }
+    @media (max-width: 800px) {
+        td {
+            font-size: 15px; /* Ajusta o tamanho da fonte em telas menores */
+        }
+    }
 
 
 .video-wrapper {
