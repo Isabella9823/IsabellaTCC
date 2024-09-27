@@ -287,22 +287,24 @@ a:hover {
 /*rodapé*/
 
 footer {
-      background: #727471;
-      color: white;
-      text-align: center;
-      display: flex;
-      padding: 80px;
-        }
+    background: #727471;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Adicionado */
+    padding: 80px;
+}
 
-  .corb {
-      background: #f0f0f0;
-      color: black;
-      border: none;
-      padding: 12px 32px;
-      cursor: pointer;
-      border-radius: 4px;
-      font-size: 18px;
-  }
+.corb {
+    background: #f0f0f0;
+    color: black;
+    border: none;
+    padding: 12px 32px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 0; /* Adicionado para evitar margens indesejadas */
+}
 
 .corb:hover{
   background-color: #ccc;
