@@ -74,6 +74,10 @@ body, html {
   cursor: pointer;
 }
 
+.w3-top{
+  font-size:18px;
+}
+
 /* Desativar a rolagem de paralaxe para tablets e telefones */
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1 {
