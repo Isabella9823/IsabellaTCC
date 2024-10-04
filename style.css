@@ -317,3 +317,36 @@ footer {
 .corb i {
    margin-left: 8px;
 }
+
+footeer {
+    padding: 25px;
+    background-color: #787878;
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  p {
+    font-size: 16px;
+  }
+  .redes {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+  }
+  .redes button {
+    background: none; 
+    border: none; 
+    color: black; 
+    font-size: 20px; 
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 800px) {
+    footeer {
+      flex-direction: column; 
+      align-items: center; 
+    }
+    .redes {
+      margin-top: 10px; 
+    }
+  }
