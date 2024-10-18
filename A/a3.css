@@ -82,7 +82,7 @@ body, html {
 
 
 .letra{
-  font-size:25px;
+  font-size:20px;
   color: Grey; 
 }
 
@@ -226,9 +226,7 @@ footeer {
     justify-content: space-between; 
     align-items: center; 
   }
-  p {
-    font-size: 16px;
-  }
+  
   .redes {
     display: flex;
     gap: 10px; /* Espaçamento entre os botões */
