@@ -11,7 +11,7 @@ body, html {
 }
 
 .image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://th.bing.com/th/id/R.60fd807591a46f3180c4bd0c275b2c09?rik=SAkDx%2bmjqtZzcA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fpOLJoQV.jpg&ehk=G5ogT%2f07tCpAMbolbaSwR03Bc3d694MrHdD4lN8dmkA%3d&risl=&pid=ImgRaw&r=0");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://th.bing.com/th/id/R.f0fc7ac6ab908fe623f74208f5e15392?rik=2xSlLnygfYmhZg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fvD0OlM6.jpg&ehk=j0AE6%2bDS8RCYfUJZSRQ2vu6vfQuliJKpafK9f3ASrmE%3d&risl=&pid=ImgRaw&r=0");
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
