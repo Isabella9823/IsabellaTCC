@@ -20,7 +20,7 @@ body, html {
 
 
 .bgimg-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://wallpapercave.com/wp/UAtM37k.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://th.bing.com/th/id/R.97536e142f1982b5f1d097a01d163452?rik=c8TaR5Ly%2fU46yw&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2flogopedia%2fimages%2fc%2fc5%2fNeighbor-totoro-disneyscreencaps.com-1.jpg%2frevision%2flatest%3fcb%3d20150927153652&ehk=A7mZDIXN3Q5k3%2baM3rOFBGRmNrOtuAgVk%2fYGTPyzrVw%3d&risl=&pid=ImgRaw&r=0');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
