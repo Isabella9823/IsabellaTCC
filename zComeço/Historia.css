@@ -78,23 +78,7 @@
     .column {
       width: 100%;
     }
-  }
-  
-   .column-cont {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-right: 9%;
-    margin-left: 9%;
-  }
-  
-  .column-uni {
-    float: left;
-    width: 100%; 
-    padding: 10px;
-  }
-    
-  
-  
+  }  
   .letra{
     font-size:20px;
     color: Grey; 
@@ -131,16 +115,21 @@
           }
       }
   
+  /* Ajuste das imagens para alinhá-las às margens do contêiner */
   .imagemm {
     position: relative;
-    display: inline-block;
+    display: block; /* Garante que o contêiner ocupe toda a largura disponível */
+    width: 100%;
+    margin: 0; /* Remove qualquer margem adicional */
   }
   
   .imagem {
-    width: 100%; 
-    height: auto;
+    width: 100%; /* Imagem vai ocupar toda a largura do contêiner */
+    height: auto; /* Manter a proporção da imagem */
+    display: block; /* Remove o espaçamento indesejado abaixo da imagem */
   }
   
+  /* Ajustando a posição do texto na imagem */
   .texto {
     position: absolute;
     bottom: 0; 
@@ -151,9 +140,39 @@
     text-align: center; 
     font-size: 25px; 
     font-weight: bold; 
+    box-sizing: border-box; /* Garante que o preenchimento da caixa da imagem não afete a largura total */
   }
   
+  /* Ajuste nas margens do column-cont */
+  .column-cont {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 0;  /* Remove qualquer preenchimento à esquerda */
+    padding-right: 0; /* Remove qualquer preenchimento à direita */
+    margin-right: 9%;
+    margin-left: 9%;
+    box-sizing: border-box; /* Inclui o preenchimento e borda no cálculo da largura total */
+  }
   
+  /* Ajustes nas colunas */
+  .column-uni {
+    float: left;
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box; /* Garante que o preenchimento não afete a largura total da coluna */
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 800px) {
+    .imagem {
+      width: 100%; /* Garante que a imagem ocupe toda a largura na versão mobile */
+      height: auto;
+    }
+    
+    .text {
+      font-size: 25px;
+    }
+  }
   
   
   /*rodapé*/
