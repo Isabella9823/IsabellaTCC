@@ -1,122 +1,139 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "DM Serif Text", serif;
+  background-color:#f0f0f0;
+  display: flex;  /* Usa o Flexbox para o layout */
+flex-direction: column;  /* Organiza o conteúdo de cima para baixo */
+}
+
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpapercave.com/wp/UAtM37k.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.btn {
+  font-family: "DM Serif Text", serif;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color:black;
+  background-color: #ccc;
+}
+
+.text {
+  font-size:50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f0f0f0;
+}
+
+@media screen and (max-width: 800px){
+.text{
+  font-size:25px;
+}
+}
+
+/* Estilizar o contêiner para colunas */
+.column-container {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 9%;
+  margin-left: 9%;
+}
+
+/* Criar duas colunas que flutuam uma ao lado da outra */
+.column {
+  float: left;
+  width: 48%; 
+  padding: 10px;
   
-  body, html {
-    height: 100%;
-    margin: 0;
-    font-family: "DM Serif Text", serif;
-    background-color:#f0f0f0;
+}
+
+/* Limpar flutuadores após as colunas */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Layout responsivo - faz com que as colunas se empilhem umas sobre as outras em vez de próximas umas das outras */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
   }
-  
-  .image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpapercave.com/wp/UAtM37k.jpg");
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .btn {
-    font-family: "DM Serif Text", serif;
-    background-color: transparent;
-    border: none;
-    color: white;
-    padding: 12px 16px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  .btn:hover{
-    color:black;
-    background-color: #ccc;
-  }
-  
-  .text {
-    font-size:50px;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #f0f0f0;
-  }
-  
-  @media screen and (max-width: 800px){
-  .text{
-    font-size:25px;
-  }
-  }
-  
-  /* Estilizar o contêiner para colunas */
-  .column-container {
+}
+
+.letra{
+  font-size:20px;
+  color: Grey; 
+}
+
+.letratab{
+  font-size:18px;
+  color: Grey; 
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+    .tab {
+        max-width: 100%; 
+        
+    }
+    table {
+        width: 100%;
+        max-width: 600px;
+        border-collapse: collapse; 
+        margin: auto; 
+    }
+    td {
+        padding: 16px; 
+        border: 1px solid #ddd;
+        white-space: normal;
+    }
+    @media (max-width: 800px) {
+        td {
+            font-size: 16px; 
+        }
+    }
+
+    .column-cont {
     margin-top: 30px;
     margin-bottom: 10px;
     margin-right: 9%;
     margin-left: 9%;
   }
   
-  /* Criar duas colunas que flutuam uma ao lado da outra */
-  .column {
+  .column-uni {
     float: left;
-    width: 48%; 
+    width: 100%; 
     padding: 10px;
-    
   }
+
+/*imagens*/
   
-  /* Limpar flutuadores após as colunas */
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Layout responsivo - faz com que as colunas se empilhem umas sobre as outras em vez de próximas umas das outras */
-  @media screen and (max-width: 800px) {
-    .column {
-      width: 100%;
-    }
-  }  
-  .letra{
-    font-size:20px;
-    color: Grey; 
-  }
-  
-  .letratab{
-    font-size:18px;
-    color: Grey; 
-  }
-  
-  table {
-    border-collapse: collapse;
-  }
-  
-  
-      .tab {
-          max-width: 100%; 
-          
-      }
-      table {
-          width: 100%;
-          max-width: 600px;
-          border-collapse: collapse; 
-          margin: auto; 
-      }
-      td {
-          padding: 16px; 
-          border: 1px solid #ddd;
-          white-space: normal;
-      }
-      @media (max-width: 800px) {
-          td {
-              font-size: 16px; 
-          }
-      }
-  
-  /* Ajuste das imagens para alinhá-las às margens do contêiner */
-  .imagemm {
+ .imagemm {
     position: relative;
     display: block; /* Garante que o contêiner ocupe toda a largura disponível */
     width: 100%;
@@ -128,56 +145,40 @@
     height: auto; /* Manter a proporção da imagem */
     display: block; /* Remove o espaçamento indesejado abaixo da imagem */
   }
-  
-  /* Ajustando a posição do texto na imagem */
-  .texto {
+
+   .textoo {
     position: absolute;
-    bottom: 0; 
+    bottom: 0;  
     background: rgba(0, 0, 0, 0.5); /* Cor de fundo preta com opacidade */
     color: #f1f1f1; 
     width: 100%;
-    padding: 28px;
+    padding: 30px;
     text-align: center; 
-    font-size: 25px; 
+    font-size: 30px; 
     font-weight: bold; 
     box-sizing: border-box; /* Garante que o preenchimento da caixa da imagem não afete a largura total */
   }
   
-  /* Ajuste nas margens do column-cont */
-  .column-cont {
+   .margemm {
     margin-top: 30px;
     margin-bottom: 10px;
     padding-left: 0;  /* Remove qualquer preenchimento à esquerda */
     padding-right: 0; /* Remove qualquer preenchimento à direita */
-    margin-right: 9%;
-    margin-left: 9%;
+    margin-right: 4%;
+    margin-left: 4%;
     box-sizing: border-box; /* Inclui o preenchimento e borda no cálculo da largura total */
   }
-  
-  /* Ajustes nas colunas */
-  .column-uni {
-    float: left;
-    width: 100%; 
-    padding: 10px;
-    box-sizing: border-box; /* Garante que o preenchimento não afete a largura total da coluna */
+
+@media screen and (max-width: 800px) {
+  .textoo{
+    padding: 18px;
+    font-size: 18px; 
   }
-  
-  /* Responsividade */
-  @media screen and (max-width: 800px) {
-    .imagem {
-      width: 100%; /* Garante que a imagem ocupe toda a largura na versão mobile */
-      height: auto;
-    }
-    
-    .text {
-      font-size: 25px;
-    }
-  }
-  
-  
-  /*rodapé*/
-  
-  footer {
+}
+
+/*rodapé*/
+
+footer {
     padding: 80px;
     background-color: #a1a1a1;
     color: white;
