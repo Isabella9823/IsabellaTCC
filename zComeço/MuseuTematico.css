@@ -80,6 +80,14 @@ flex-direction: column;  /* Organiza o conteúdo de cima para baixo */
   .column {
     width: 100%;
   }
+  
+  .column-container {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+  
 }
 
 .letra{
