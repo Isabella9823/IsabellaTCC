@@ -141,8 +141,9 @@ table {
   }
   
   .imagem {
-    width: 100%; /* Imagem vai ocupar toda a largura do contêiner */
+    width: 100%; 
     height: auto; /* Manter a proporção da imagem */
+     max-height: 90vh;   
     display: block; /* Remove o espaçamento indesejado abaixo da imagem */
   }
 
