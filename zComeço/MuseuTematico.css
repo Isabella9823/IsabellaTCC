@@ -176,6 +176,92 @@ table {
   }
 }
 
+
+/*slides*/
+
+.slides {
+display: none;  
+}
+
+img {
+vertical-align: middle; 
+}
+
+.slide-container {
+max-width: auto; 
+position: relative;
+margin: auto;  
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+/* Estilo dos botões "Anterior" e "Próximo" */
+.prev, .next {
+cursor: pointer; 
+position: absolute; 
+top: 50%; 
+width: auto; 
+padding: 16px; 
+margin-top: -22px; 
+color: white; 
+font-weight: bold; 
+font-size: 18px; 
+transition: 0.6s ease; 
+border-radius: 0 3px 3px 0; 
+user-select: none; 
+}
+
+/* Estilo do botão "Próximo", posicionado à direita */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px; 
+}
+
+/* Quando o mouse passa sobre os botões, muda a cor de fundo */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8); 
+}
+
+/* Estilo do número de cada slide (ex. 1 de 3) */
+.numero {
+color: #f2f2f2;
+font-size: 14px;
+padding: 8px 12px;
+position: absolute; 
+top: 0;
+}
+
+/* Estilo dos pontos de navegação (indicadores de slide) */
+.bolinha {
+cursor: pointer; 
+height: 12px; 
+width: 12px; 
+margin: 0 2px; 
+background-color: #bbb; 
+border-radius: 50%; 
+display: inline-block; 
+transition: background-color 0.6s ease; 
+}
+
+/* Quando um ponto está ativo ou ao passar o mouse sobre ele */
+.active, .dot:hover {
+background-color: #717171; 
+}
+
+/* Estilo responsivo para telas pequenas */
+@media only screen and (max-width: 300px) {
+.prev, .next { font-size: 11px; }
+
+}
+
+@media screen and (max-width: 500px) {
+  .bolinha{
+    height: 10px; 
+    width: 10px;
+  }
+}
+
+
 /*rodapé*/
 
 footer {
