@@ -184,7 +184,9 @@ display: none;
 }
 
 img {
-vertical-align: middle; 
+vertical-align: middle;
+  max-height: 90vh;   /* A altura máxima será igual a 100% da altura da tela */
+  width: auto; 
 }
 
 .slide-container {
@@ -225,7 +227,7 @@ background-color: rgba(0,0,0,0.8);
 /* Estilo do número de cada slide (ex. 1 de 3) */
 .numero {
 color: #f2f2f2;
-font-size: 14px;
+font-size: 18px;
 padding: 8px 12px;
 position: absolute; 
 top: 0;
